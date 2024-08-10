@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:padding="16dp">
+
+    <!-- Each TableRow represents a row in the tic-tac-toe game -->
+    <!-- Replace 'Button' with 'android.widget.Button' if there's any confusion in layout editor -->
+    <TableRow>
+        <Button android:id="@+id/button_00" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="24sp"/>
+        <Button android:id="@+id/button_01" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="24sp"/>
+        <Button android:id="@+id/button_02" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="24sp"/>
+        <Button android:id="@+id/button_03" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="24sp"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/button_10" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="24sp"/>
+        <Button android:id="@+id/button_11" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="24sp"/>
+        <Button android:id="@+id/button_12" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="24sp"/>
+        <Button android:id="@+id/button_13" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="24sp"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/button_20" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="24sp"/>
+        <Button android:id="@+id/button_21" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="24sp"/>
+        <Button android:id="@+id/button_22" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="24sp"/>
+        <Button android:id="@+id/button_23" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="24sp"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/button_30" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="24sp"/>
+        <Button android:id="@+id/button_31" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="24sp"/>
+        <Button android:id="@+id/button_32" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="24sp"/>
+        <Button android:id="@+id/button_33" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="24sp"/>
+    </TableRow>
+
+    <!-- Repeat for other rows, updating ids to button_10, button_11, etc. -->
+</TableLayout>
